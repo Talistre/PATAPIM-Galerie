@@ -1,0 +1,537 @@
+.page-d-accueil {
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #000000;
+    width: 100%;
+    min-width: 1440px;
+    min-height: 4072px;
+    position: relative;
+  }
+  
+  .page-d-accueil .rectangle {
+    position: absolute;
+    top: 3373px;
+    left: 0;
+    width: 1441px;
+    height: 713px;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1454px;
+    height: 121px;
+  }
+  
+  .page-d-accueil .rectangle-2 {
+    position: absolute;
+    top: 136px;
+    left: 202px;
+    width: 1036px;
+    height: 571px;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .rectangle-3 {
+    position: absolute;
+    top: 877px;
+    left: 437px;
+    width: 593px;
+    height: 63px;
+  }
+  
+  .page-d-accueil .rectangle-4 {
+    position: absolute;
+    top: 136px;
+    left: 1258px;
+    width: 166px;
+    height: 732px;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .rectangle-5 {
+    position: absolute;
+    top: 145px;
+    left: 18px;
+    width: 164px;
+    height: 732px;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .gkvpjm {
+    position: absolute;
+    top: 556px;
+    left: 30px;
+    width: 137px;
+    height: 205px;
+    aspect-ratio: 0.67;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .ventes-flash {
+    position: absolute;
+    top: 194px;
+    left: 1273px;
+    width: 133px;
+    height: 45px;
+  }
+  
+  .page-d-accueil .PATAPIM-GALERIE {
+    position: absolute;
+    top: 0;
+    left: 510px;
+    width: 735px;
+    height: 31px;
+  }
+  
+  .page-d-accueil .artiste-de-la {
+    position: absolute;
+    top: 738px;
+    left: 465px;
+    width: 537px;
+    height: 88px;
+  }
+  
+  .page-d-accueil .dcouvrir {
+    position: absolute;
+    top: 877px;
+    left: 667px;
+    width: 133px;
+    height: 80px;
+  }
+  
+  .page-d-accueil .ventes-flash-2 {
+    top: 210px;
+    left: 34px;
+    position: absolute;
+    width: 133px;
+    height: 45px;
+  }
+  
+  .page-d-accueil .ventes-flash-3 {
+    top: 511px;
+    left: 34px;
+    position: absolute;
+    width: 133px;
+    height: 45px;
+  }
+  
+  .page-d-accueil .rectangle-6 {
+    position: absolute;
+    top: 1720px;
+    left: 176px;
+    width: 1102px;
+    height: 139px;
+  }
+  
+  .page-d-accueil .rectangle-7 {
+    position: absolute;
+    top: 1035px;
+    left: 183px;
+    width: 1102px;
+    height: 139px;
+  }
+  
+  .page-d-accueil .frame {
+    position: absolute;
+    top: 1180px;
+    left: 757px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .page-d-accueil .galerie {
+    position: absolute;
+    top: 1709px;
+    left: 606px;
+    width: 256px;
+    height: 52px;
+  }
+  
+  .page-d-accueil .rectangle-8 {
+    position: absolute;
+    top: 1939px;
+    left: 557px;
+    width: 340px;
+    height: 320px;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .rectangle-9 {
+    position: absolute;
+    top: 2423px;
+    left: 549px;
+    width: 340px;
+    height: 320px;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .rectangle-10 {
+    position: absolute;
+    top: 1939px;
+    left: 996px;
+    width: 340px;
+    height: 320px;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .rectangle-11 {
+    position: absolute;
+    top: 2894px;
+    left: 996px;
+    width: 340px;
+    height: 320px;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .rectangle-12 {
+    position: absolute;
+    top: 2894px;
+    left: 104px;
+    width: 340px;
+    height: 320px;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .rectangle-13 {
+    position: absolute;
+    top: 2423px;
+    left: 996px;
+    width: 340px;
+    height: 320px;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .rectangle-14 {
+    position: absolute;
+    top: 1939px;
+    left: 104px;
+    width: 340px;
+    height: 320px;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .rectangle-15 {
+    position: absolute;
+    top: 2894px;
+    left: 550px;
+    width: 340px;
+    height: 320px;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .la-casa-de-barney {
+    position: absolute;
+    top: 3215px;
+    left: 522px;
+    width: 396px;
+    height: 64px;
+  }
+  
+  .page-d-accueil .bleu {
+    position: absolute;
+    top: 3215px;
+    left: 221px;
+    width: 102px;
+    height: 64px;
+  }
+  
+  .page-d-accueil .bleu-2 {
+    position: absolute;
+    top: 3220px;
+    left: 1099px;
+    width: 134px;
+    height: 64px;
+  }
+  
+  .page-d-accueil .y {
+    position: absolute;
+    top: 2756px;
+    left: 260px;
+    width: 28px;
+    height: 64px;
+  }
+  
+  .page-d-accueil .patapimo {
+    position: absolute;
+    top: 2259px;
+    left: 617px;
+    width: 219px;
+    height: 62px;
+  }
+  
+  .page-d-accueil .ginger {
+    position: absolute;
+    top: 2265px;
+    left: 1093px;
+    width: 219px;
+    height: 62px;
+  }
+  
+  .page-d-accueil .element-beatles {
+    position: absolute;
+    top: 2756px;
+    left: 1040px;
+    width: 252px;
+    height: 64px;
+  }
+  
+  .page-d-accueil .mditerrane {
+    position: absolute;
+    top: 2756px;
+    left: 567px;
+    width: 319px;
+    height: 43px;
+  }
+  
+  .page-d-accueil .pantalon-ray-sur-air {
+    position: absolute;
+    top: 2269px;
+    left: 22px;
+    width: 545px;
+    height: 53px;
+  }
+  
+  .page-d-accueil .propos-contact-qui {
+    position: absolute;
+    top: 3730px;
+    left: 1086px;
+    width: 464px;
+    height: 342px;
+  }
+  
+  .page-d-accueil .SAV-contactez-nous {
+    position: absolute;
+    top: 3730px;
+    left: 569px;
+    width: 399px;
+    height: 342px;
+  }
+  
+  .page-d-accueil .garanties-conditions {
+    position: absolute;
+    top: 3730px;
+    left: 44px;
+    width: 505px;
+    height: 342px;
+  }
+  
+  .page-d-accueil .newsletter {
+    position: absolute;
+    top: 3428px;
+    left: 555px;
+    width: 343px;
+    height: 62px;
+  }
+  
+  .page-d-accueil .rectangle-16 {
+    position: absolute;
+    top: 1332px;
+    left: 171px;
+    width: 377px;
+    height: 235px;
+  }
+  
+  .page-d-accueil .rectangle-17 {
+    position: absolute;
+    top: 1305px;
+    left: 81px;
+    width: 557px;
+    height: 340px;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .rectangle-18 {
+    position: absolute;
+    top: 1305px;
+    left: 779px;
+    width: 557px;
+    height: 340px;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .rectangle-19 {
+    position: absolute;
+    top: 1322px;
+    left: 845px;
+    width: 185px;
+    height: 306px;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .rectangle-20 {
+    position: absolute;
+    top: 1322px;
+    left: 1093px;
+    width: 185px;
+    height: 306px;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .element {
+    position: absolute;
+    top: 251px;
+    left: 23px;
+    width: 154px;
+    height: 230px;
+    aspect-ratio: 0.67;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .clean-artistic {
+    position: absolute;
+    top: 559px;
+    left: 1263px;
+    width: 149px;
+    height: 223px;
+    aspect-ratio: 0.67;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .l-homme-table-cette {
+    position: absolute;
+    top: 242px;
+    left: 1263px;
+    width: 154px;
+    height: 226px;
+    aspect-ratio: 0.68;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .uolqyiaz {
+    position: absolute;
+    top: 159px;
+    left: 360px;
+    width: 734px;
+    height: 526px;
+    aspect-ratio: 0.72;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .ventes-flash-4 {
+    top: 498px;
+    left: 1273px;
+    position: absolute;
+    width: 133px;
+    height: 45px;
+  }
+  
+  .page-d-accueil .ellipse {
+    left: 1348px;
+    position: absolute;
+    top: 31px;
+    width: 58px;
+    height: 52px;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .ellipse-2 {
+    left: 1245px;
+    position: absolute;
+    top: 31px;
+    width: 58px;
+    height: 52px;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .panier {
+    position: absolute;
+    top: 78px;
+    left: 1345px;
+    width: 69px;
+    height: 46px;
+  }
+  
+  .page-d-accueil .compte {
+    position: absolute;
+    top: 78px;
+    left: 1228px;
+    width: 92px;
+    height: 46px;
+  }
+  
+  .page-d-accueil .categories {
+    position: absolute;
+    top: 1026px;
+    left: 567px;
+    width: 651px;
+    height: 89px;
+  }
+  
+  .page-d-accueil .argentique {
+    position: absolute;
+    top: 1202px;
+    left: 885px;
+    width: 346px;
+    height: 89px;
+  }
+  
+  .page-d-accueil .numrique {
+    position: absolute;
+    top: 1202px;
+    left: 190px;
+    width: 340px;
+    height: 89px;
+  }
+  
+  .page-d-accueil .chatgpt-image-oct {
+    position: absolute;
+    top: 15px;
+    left: 44px;
+    width: 92px;
+    height: 92px;
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .rectangle-21 {
+    position: absolute;
+    top: 3544px;
+    left: 407px;
+    width: 625px;
+    height: 80px;
+  }
+  
+  .page-d-accueil .entrez-votre-e-mail {
+    position: absolute;
+    top: 3544px;
+    left: 555px;
+    width: 327px;
+    height: 68px;
+  }
+  
+  .page-d-accueil .rectangle-22 {
+    position: absolute;
+    top: 2423px;
+    left: 104px;
+    width: 340px;
+    height: 320px;
+    object-fit: cover;
+  }
+  
+  .page-d-accueil .facebook {
+    position: absolute;
+    top: 3998px;
+    left: 705px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .page-d-accueil .instagram {
+    position: absolute;
+    top: 3998px;
+    left: 569px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .page-d-accueil .twitter {
+    position: absolute;
+    top: 4002px;
+    left: 841px;
+    width: 50px;
+    height: 50px;
+  }
+  
