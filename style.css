@@ -69,7 +69,9 @@ img {
   font-size: 0.7rem;
   transition: opacity 0.3s;
 }
-.vertical-link:hover { opacity: 0.8; }
+.vertical-link:hover {
+  opacity: 0.8;
+}
 
 .vertical-image {
   width: 30px;
@@ -96,63 +98,65 @@ img {
 }
 
 .top-content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 20px 0;
-    margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 0;
+  margin-top: 30px;
 }
 
 .flash-vortex {
-    width: 12.5%;
-    text-align: center;
-    padding-top: 10px;
+  width: 12.5%;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .vortex-image-full {
-  height: auto; 
+  height: auto;
   object-fit: cover;
 }
 
 .vortex-title {
-    font-size: 1.1rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 5px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
 }
 
 .vortex-link {
-    display: block;
-    margin-bottom: 15px;
-    transition: opacity 0.3s;
+  display: block;
+  margin-bottom: 15px;
+  transition: opacity 0.3s;
 }
-.vortex-link:hover { opacity: 0.8; }
+.vortex-link:hover {
+  opacity: 0.8;
+}
 
 .vortex-image {
-    height: 150px;
-    object-fit: cover;
-    border-radius: 5px;
-    border: 1px solid var(--color-dark);
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1px solid var(--color-dark);
 }
 
 .vortex-text {
-    font-size: 0.9rem;
-    margin-top: 5px;
+  font-size: 0.9rem;
+  margin-top: 5px;
 }
 
 .section-heading {
-  margin: 40px 0 20px 0; 
+  margin: 40px 0 20px;
   font-size: 2rem;
   font-family: var(--font-secondary);
   letter-spacing: 3px;
-  padding: 5px 80px; 
+  padding: 5px 80px;
   background-color: var(--color-primary-yellow);
-  display: inline-block; 
-  width: auto; 
+  display: inline-block;
+  width: auto;
   border-radius: 20px;
   text-align: center;
 }
@@ -162,22 +166,22 @@ img {
 }
 
 .artist-of-the-week {
-  flex-grow: 1; 
-  max-width: 75%; 
-  padding: 0 30px 40px; 
+  flex-grow: 1;
+  max-width: 100%;
+  padding: 0 30px 40px;
   text-align: center;
 }
 
 .banner-wrapper {
   position: relative;
-  max-width: 100%; 
+  max-width: 100%;
   margin: 20px auto;
 }
 
 .center-banner-image {
-  height: auto; 
-  width: 100%; 
-  object-fit: contain; 
+  height: auto;
+  width: 100%;
+  object-fit: contain;
 }
 
 .side-banner-image {
@@ -219,7 +223,7 @@ img {
   color: var(--color-dark);
   padding: 10px 30px;
   width: 200px;
-  margin: 10px auto 0 auto;
+  margin: 10px auto 0;
   border-radius: 20px;
   transition: background-color 0.3s;
 }
@@ -246,7 +250,7 @@ img {
 .category-subtitle {
   font-family: var(--font-secondary);
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 700;
   color: var(--color-dark);
   margin-bottom: 10px;
 }
@@ -259,7 +263,9 @@ img {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
 }
-.category-card:hover { transform: translateY(-5px); }
+.category-card:hover {
+  transform: translateY(-5px);
+}
 
 .category-image {
   width: 100%;
@@ -284,7 +290,9 @@ img {
   text-align: center;
   transition: opacity 0.3s;
 }
-.gallery-item:hover { opacity: 0.8; }
+.gallery-item:hover {
+  opacity: 0.8;
+}
 
 .artwork-image {
   width: 100%;
@@ -303,7 +311,7 @@ img {
   background-color: var(--color-dark);
   color: var(--color-white);
   padding-top: 40px;
-  background-image: url('image/fond\ marbre\ bas.png');
+  background-image: url('image/fond marbre bas.png');
   background-size: cover;
 }
 
@@ -399,139 +407,138 @@ img {
 
 
 @media (max-width: 700px) {
-
   .top-nav-container {
-      flex-direction: row; 
-      justify-content: space-between; 
-      align-items: center; 
-      width: 100%;
-      max-width: none;
-      padding: 10px 15px;
-      gap: 5px; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: none;
+    padding: 10px 15px;
+    gap: 5px;
   }
-  
+
   .gallery-title {
-      font-size: 1.2rem; 
-      margin: 0;
-      flex-grow: 1; 
-      text-align: center;
-      white-space: nowrap;
+    font-size: 1.2rem;
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+    white-space: nowrap;
   }
-  
+
   .nav-left {
-      width: auto; 
-      margin-bottom: 0;
-      display: flex; 
+    width: auto;
+    margin-bottom: 0;
+    display: flex;
   }
   .vertical-image {
-      width: 25px; 
-      height: 35px;
-      border: none;
+    width: 25px;
+    height: 35px;
+    border: none;
   }
-  
+
   .nav-right {
-      width: auto; 
-      justify-content: flex-end;
-      gap: 5px;
-      margin-bottom: 0;
+    width: auto;
+    justify-content: flex-end;
+    gap: 5px;
+    margin-bottom: 0;
   }
   .action-icon {
-      width: 18px;
-      height: 18px;
+    width: 18px;
+    height: 18px;
   }
   .action-link span {
-      font-size: 0.7rem;
+    font-size: 0.7rem;
   }
-  
-  
+
+
   .top-content-wrapper {
-      margin-top: 20px; 
-      display: flex; 
-      flex-direction: row; 
-      justify-content: center;
-      align-items: flex-start; 
-      padding: 0 5px; 
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 5px;
   }
-  
+
   .flash-vortex {
-      width: 15%; 
-      padding: 0 2px; 
-      margin-bottom: 0; 
+    width: 15%;
+    padding: 0 2px;
+    margin-bottom: 0;
   }
-  
+
   .artist-of-the-week {
-      flex-grow: 1; 
-      width: 70%; 
-      max-width: 70%;
-      padding: 0 10px; 
-      margin-bottom: 0; 
+    flex-grow: 1;
+    width: 70%;
+    max-width: 70%;
+    padding: 0 10px;
+    margin-bottom: 0;
   }
-  
+
 
   .vortex-image-full {
-      height: 350px; 
-      object-fit: cover; 
-      width: 100%; 
+    height: 350px;
+    object-fit: cover;
+    width: 100%;
   }
   .center-banner-image {
-      max-height: 350px; 
-      width: 100%;
-      object-fit: contain; 
-      height: 100%; 
+    max-height: 350px;
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
   }
   .banner-wrapper {
-      height: 350px; 
-      margin: 0 auto 20px auto; 
+    height: 350px;
+    margin: 0 auto 20px;
   }
   .side-banner-image {
-      display: none;
+    display: none;
   }
-  
+
   .categories-container {
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
   .category-card {
-      width: 80%;
-      max-width: 350px;
-      height: auto;
+    width: 80%;
+    max-width: 350px;
+    height: auto;
   }
   .category-image {
-      height: auto;
-      border-radius: 20px;
+    height: auto;
+    border-radius: 20px;
   }
 
   .gallery-grid {
-      grid-template-columns: 1fr;
-      gap: 40px;
+    grid-template-columns: 1fr;
+    gap: 40px;
   }
   .gallery-item {
-      width: 260px;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    width: 260px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .artwork-image {
-      width: 100%;
-      aspect-ratio: 1 / 1;
-      object-fit: cover;
-      border-radius: 30px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   }
   .artwork-title {
-      margin-top: 15px;
-      font-size: 1rem;
-      font-family: var(--font-secondary);
+    margin-top: 15px;
+    font-size: 1rem;
+    font-family: var(--font-secondary);
   }
 
   .footer-links-container {
-      flex-direction: column;
-      text-align: center;
-      gap: 30px;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
   }
   .footer-column {
-      width: 100%;
+    width: 100%;
   }
 }
