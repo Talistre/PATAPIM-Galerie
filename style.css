@@ -76,7 +76,7 @@ img {
   height: 40px;
   object-fit: cover;
   margin-bottom: 5px;
-  border: 1px solid var(--color-dark);
+  border: none;
 }
 
 .action-link {
@@ -102,12 +102,18 @@ img {
     max-width: 1400px;
     margin: 0 auto;
     padding: 20px 0;
+    margin-top: 30px;
 }
 
 .flash-vortex {
-    width: 20%;
+    width: 12.5%;
     text-align: center;
     padding-top: 10px;
+}
+
+.vortex-image-full {
+  height: auto; 
+  object-fit: cover;
 }
 
 .vortex-title {
@@ -157,7 +163,7 @@ img {
 
 .artist-of-the-week {
   flex-grow: 1; 
-  max-width: 60%;
+  max-width: 75%;
   padding: 0 30px 40px; 
   text-align: center;
 }
@@ -169,13 +175,9 @@ img {
 }
 
 .center-banner-image {
-  width: 100%;
   height: auto; 
+  width: 100%; 
   object-fit: contain; 
-  border-radius: 10px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  z-index: 10;
-  position: relative;
 }
 
 .side-banner-image {
@@ -380,42 +382,100 @@ img {
   display: inline-block;
 }
 
+.side-banner-image {
+  display: none;
+}
+
+
 @media (max-width: 700px) {
 
+  .top-nav-container {
+      flex-direction: row; 
+      justify-content: space-between; 
+      align-items: center; 
+      width: 100%;
+      max-width: none;
+      padding: 10px 15px;
+      gap: 5px; 
+  }
+  
+  .gallery-title {
+      font-size: 1.2rem; 
+      margin: 0;
+      flex-grow: 1; 
+      text-align: center;
+      white-space: nowrap;
+  }
+  
+  .nav-left {
+      width: auto; 
+      margin-bottom: 0;
+      display: flex; 
+  }
+  .vertical-image {
+      width: 25px; 
+      height: 35px;
+      border: none;
+  }
+  
+  .nav-right {
+      width: auto; 
+      justify-content: flex-end;
+      gap: 5px;
+      margin-bottom: 0;
+  }
+  .action-icon {
+      width: 18px;
+      height: 18px;
+  }
+  .action-link span {
+      font-size: 0.7rem;
+  }
+  
+
   .top-content-wrapper {
-      flex-direction: column;
-      align-items: center;
-      padding: 0;
+      margin-top: 20px; 
+      display: flex; 
+      flex-direction: row; 
+      justify-content: center;
+      align-items: flex-start; 
+      padding: 0 5px; 
   }
   
   .flash-vortex {
-    width: 15%; 
-    padding: 0 10px; 
-}
+      width: 15%; 
+      padding: 0 2px; 
+      margin-bottom: 0; 
+  }
   
-.artist-of-the-week {
-  flex-grow: 1; 
-  max-width: 70%; 
-  padding: 0 30px 40px; 
-  text-align: center; 
-}
+  .artist-of-the-week {
+      flex-grow: 1; 
+      width: 70%; 
+      max-width: 70%;
+      padding: 0 10px; 
+      margin-bottom: 0; 
+  }
+  
 
-  .top-nav-container {
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 10px;
+  .vortex-image-full {
+      height: 350px; 
+      object-fit: cover; 
+      width: 100%; 
   }
-  .gallery-title {
+  .center-banner-image {
+      max-height: 350px; 
       width: 100%;
-      margin-top: 10px;
-      font-size: 1.5rem;
+      object-fit: contain; 
+      height: 100%; 
   }
-  .nav-left, .nav-right {
-      width: 100%;
-      justify-content: center;
-      margin-bottom: 10px;
+  .banner-wrapper {
+      height: 350px; 
+      margin: 0 auto 20px auto; 
   }
-
+  .side-banner-image {
+      display: none;
+  }
+  
   .categories-container {
       flex-direction: column;
       align-items: center;
@@ -435,7 +495,6 @@ img {
       grid-template-columns: 1fr;
       gap: 40px;
   }
-
   .gallery-item {
       width: 260px;
       margin: 0 auto;
@@ -443,16 +502,13 @@ img {
       flex-direction: column;
       align-items: center;
   }
-
   .artwork-image {
       width: 100%;
       aspect-ratio: 1 / 1;
-      height: auto;
       object-fit: cover;
       border-radius: 30px;
       box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   }
-
   .artwork-title {
       margin-top: 15px;
       font-size: 1rem;
